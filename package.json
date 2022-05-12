@@ -1,0 +1,30 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmeyaLokre/practice.git"
+  },
+  "author": "Ameya Lokre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmeyaLokre/practice/issues"
+  },
+  "homepage": "https://github.com/AmeyaLokre/practice#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint": "^8.15.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.29.4"
+  }
+}
